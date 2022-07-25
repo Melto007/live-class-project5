@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    padding: 0 4rem;
+    background-color: #0D0D0D;
+    position: relative;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    padding-top: 0.5rem;
+}
+
+.grow-list {
+    padding-top: 1.2rem;
+}
+
+.list li {
+    float: left;
+    margin-left: 3rem;
+    list-style: none;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.9rem;
+}
+
+.button-small {
+    position: absolute;
+    right: 4%;
+}
+
+.line {
+    background-color: #fff;
+    width: 2px;
+    height: 50%;
+    position: absolute;
+    left: 15rem;
+    bottom: 30%;
+}
+
+.button-small {
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0.5rem 1.4rem;
+    background-color: #8D3DAF;
+    border-radius: 0.5rem;
+}
+
+.hero {
+    width: 100%;
+    height: 90vh;
+    background: url(./assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;   
+}
+
+.hero-heading {
+    padding: 8rem 10rem 0 10rem;
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+}
+
+.hero-description {
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.button-large {
+    padding: 1rem 4rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins',sans-serif;
+    background-color: #8D3DAF;
+    border-radius: 0.5rem;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
